@@ -33,3 +33,12 @@ rm removes a file, as opposed to a directory
 help displays the help file for the bash shell
 
 # 1.4 Forking and Cloning
+To instruct someone to create a new repo, I would have them first go to GitHub and sign in, then from their profile page, click the plus sign and then create a new repository.  They can then give it a name and a set it as public or private, depending on their needs.  
+
+To fork a repo, the user should sign in to GitHub, navigate to the repo that they want, and then they can click the fork button in the upper right area of the page.  GitHub will then fork the repo and put a copy in the user's own directory.
+
+To clone a repo, like the newly created one, I would instruct the user to make their way to the repository page in GitHub, where they can copy the clone link from the right hand side.  Then the user should open a terminal, move to the directory where they want to place the local copy of the repo, and enter the command git clone along with the URL they copied.
+
+A user would want to fork a repo rather than creating a new one because forking will automatically copy all of the files they need in their current state.  If you wanted a copy of a repo to work with but didn't fork it, you would have to create a new repo, then copy every single file you need on your own.  It's much less convenient.
+
+Setting up git and GitHub was not much of a struggle for me fortunately.  But I did run into issues trying to delete my local clone.  I kept looking for a git command, but all I needed was a shell command to remove the files and directories.  It was a good reminder that taught me that working with git and repos is not entirely done with git alone, you need to remember other shell commands.
