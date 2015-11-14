@@ -28,3 +28,6 @@ What is a pull request and how do you create and merge one?
 Why are pull requests preferred when working with teams?
 	Pull requests are preferred because they allow your team the chance to review your work, collaborate, and make sure everything is good before the changes are made permanent.  Without the pull request, you would be updating the master directly, which could be a bad idea.
 
+Reflection comments...
+
+There's a lot of confusing stuff with git I think, but I'm starting to get the hang of it.  The process of forking the repo to create my own copy separate from the real copy makes sense.  Creating branches that are sort of temporary copies geared towards the specific changes makes sense too.  I need to do a little more hands on and get more familiar with the differences between push and pull and the merging process though.
