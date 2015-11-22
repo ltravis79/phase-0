@@ -22,7 +22,7 @@ I think the main thing to remember about design and user experience is that the 
 User experience design is the process of designing a site to be not only functional, but a positive experience for the user.  It's important because with so many different websites out there, if the user doesn't have a positive experience, they may just find an alternative and no longer use your site.
 
 7.  Which parts of the challenge did you find tedious?
-I found learning some of the differences between the phases of design process to be tedious, in particular the early stages, because in my head they seem to be very similar, so I had to re-read to make sure I was understanding.
+I found learning some of the differences between the phases of design process to be tedious, in particular the early stages, because in my head they seem to be very similar, so I had to re-read to make sure I was understanding the differences.
 
 
 ![sitemap](imgs/sitemap.tiff)
