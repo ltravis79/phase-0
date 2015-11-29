@@ -1,0 +1,72 @@
+html {
+  background-color: #ffffff;
+}
+
+*{
+    color: #000080;
+}
+
+a {
+    color: #800080;
+    
+}
+
+a:visited{
+    color:#ff0000;
+}
+
+#column1{
+    float:left;
+    width:50%;
+}
+#column2{
+    float:left;
+    width:50%;
+}
+
+.description {
+    font-size: smaller;
+    
+}
+
+header{
+    font-weight:bold;
+    font-size: larger;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+.block{
+    display:block;
+}
+
+.big-letter{
+    font-size: 100px;
+}
+
+
+#geico {
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+    border-bottom: 2px solid gray;
+}
+article{
+    border-bottom: 2px solid gray;
+}
+footer{
+    border-bottom: 2px solid gray;
+}
+
+/*
+Reflection
+
+1.  When linking an external file to an HTML file, it's especially important to keep track of where the file is, and also where your HTML file is.  If your paths aren't correct in the link, your HTML document will never find your stylesheet, and it can be very tricky to deal with.  We had to correct that problem, it definitely cost us a few minutes of frustration.
+
+2.  It was very hard to get the site to look the way we wanted it, and it still isn't there, actually.  To help with positioning we tried to use the float property and played with the margins, which seemed to help a bit.
+
+3.  To modify element styles, we used font-size, font-weight, color, background-color, and border properties.
+
+4.  We modified the HTML to use both ids and classes.  We used ids to target the specific sections for our two columns of links, and also the Geico paragraph at the bottom.  We used classes to taarget the smaller description text for the links, and the oversized B and H letters in the header.  For those we used classes so that we didn't have to repeat our steps.
+
+5.  I think the real Berkshire site has cleaner code.  I think that I prefer our approach to the oversized letters (using spans) but I think that their approach to two columns using a table was better than our extra divs.
+*/
