@@ -1,12 +1,12 @@
 ![Exercise 1](imgs/exercise-1-change-colors.png)
-![Exercise 2](imgs/exercise-2-change-columns.png)
-![Exercise 3](imgs/exercise-3-change-row.png)
-![Exercise 4](imgs/exercise-4-change-equidistant.png)
-![Exercise 5](imgs/exercise-5-change-squares.png)
-![Exercise 6](imgs/exercise-6-change-footer.png)
-![Exercise 7](imgs/exercise-7-change-header.png)
-![Exercise 8](imgs/exercise-8-change-sidebar.png)
-![Exercise 9](imgs/exercise-9-change-creative-steps.png)
+![Exercise 2](imgs/exercise-2-columns.png)
+![Exercise 3](imgs/exercise-3-row.png)
+![Exercise 4](imgs/exercise-4-equidistant.png)
+![Exercise 5](imgs/exercise-5-squares.png)
+![Exercise 6](imgs/exercise-6-footer.png)
+![Exercise 7](imgs/exercise-7-header.png)
+![Exercise 8](imgs/exercise-8-sidebar.png)
+![Exercise 9](imgs/exercise-9-creative-steps.png)
 
 **How can you use Chrome's DevTools inspector to help you format or position elements?**
 DevTools can help format and position elements because it lets you adjust CSS properties in the browser and see the results immediately.  If you don't like what the results are, you can take off the formatting or try another value until you see what you want.
