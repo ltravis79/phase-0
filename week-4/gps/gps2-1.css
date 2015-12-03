@@ -1,3 +1,33 @@
 body {
-	background-color: green;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: dodgerblue;
+  border-bottom: 1px solid black;
+  margin-bottom: 0;
+}
+
+header p {
+  background-color: powderblue;
+}
+
+.column-1 {
+  background-color: green;
+  float: left;
+  left: 0;
+  width: 50%;
+}
+
+.column-2 {
+  background-color: pink;
+  float: right;
+  right: 0;
+  width: 50%;
+}
+
+footer {
+  background-color: red;
+  width: 100%;
+  clear: both;
 }
