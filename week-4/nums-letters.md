@@ -17,3 +17,8 @@ p 24 * 365
 ```ruby
 p 60 * 24 * 365 * 10
 ```
+
+**Exercise 1 - Defining Variables** https://github.com/ltravis79/phase-0/blob/master/week-4/defining-variables.rb
+**Exercise 2 - Simple String Methods** https://github.com/ltravis79/phase-0/blob/master/week-4/simple-string.rb
+**Exercise 1 - Local Variables and Basic Arithmetical Operations** https://github.com/ltravis79/phase-0/blob/master/week-4/basic-math.rb
+
