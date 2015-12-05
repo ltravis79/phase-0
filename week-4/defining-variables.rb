@@ -3,7 +3,9 @@ first_name = 'Lindsey'
 last_name = 'Ullman'
 age = 36
 
-
+p first_name
+p last_name
+p age
 
 # RSpec Tests. They are included in this file because the local variables you are creating are not accessible across files. If we try to run these files as a separate file per normal operation, the local variable checks will return nil.
 
