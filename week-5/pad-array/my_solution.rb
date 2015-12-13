@@ -62,6 +62,7 @@
 
 
 
+
 #Refactored Solution
 def pad!(array, min_size, value = nil) #destructive
   # Your code here
@@ -106,3 +107,30 @@ def pad(array, min_size, value = nil) #non-destructive
   return temp_array
       
 end
+
+# Reflection
+
+# Were you successful in breaking the problem down into small steps?
+# => Yes, I think we successfully identified the individual basic steps of what needed done.
+
+# Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+# => Yes and no.  A few of the steps were very easy to translate, like the steps to check for an array that meets the size or has a pad of 0.
+# => We had a few syntax issues with the looping which caused a little struggle, but not too bad.
+
+# Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+# => Definitely not successful.  We had issues with the temp array populating, and severe issues with pad being non-destructive.  
+# => We researched a lot and did a lot of trial and error until we got the non-destructive method working and passing tests.
+
+# When you refactored, did you find any existing methods in Ruby to clean up your code?
+# => No, I think that most of our refactoring was focused on getting the tests to pass rather than cleaning up.
+
+# How readable is your solution? Did you and your pair choose descriptive variable names?
+# => I think our solution is pretty readable.  Our variables are descriptive, although I would probably consider changing "array"
+
+# What is the difference between destructive and non-destructive methods in your own words?
+# => Destructive methods will perform actions and return variables to the program that have been changed, while non-destructive methods will
+# => perform actions but return separate copies of vaiables, leving the originals intact.
+
+
+
+
