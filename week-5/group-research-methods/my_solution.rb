@@ -20,11 +20,6 @@ end
 #
 
 # Person 2
-# PSEUDOCODE
-#
-# Input: Array, Number to add to existing data
-# Output: Return the array
-
 def my_array_modification_method!(source, thing_to_modify)
   # source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
   source.map! { |x| 
@@ -38,12 +33,15 @@ def my_array_modification_method!(source, thing_to_modify)
 end
 
 def my_hash_modification_method!(source, thing_to_modify)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  # source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.each_key { |key| source[key] += thing_to_modify }
+  return source
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
+# I used map! to operate on the array because it will iterate through each item in the array and manipulate the item in place.
+# I then used is_a?(Integer) to determine if the item was in fact an integer so that we can add to the number, otherwise we don't change anything.
+# For the hash I used each_key to iterate through the available keys since we want to modify every item.  Then I explicitly used the key to set the new value
 #
 
 
