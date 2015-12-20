@@ -37,14 +37,30 @@ def baking_plan_calc(item_to_make, num_of_ingredients)
   result
 end
 
+# Driver code
+
 # p baking_plan_calc("pie", 7)
 # p baking_plan_calc("pie", 8)
 # p baking_plan_calc("cake", 5)
-p baking_plan_calc("cake", 7)
+# p baking_plan_calc("cake", 7)
 # p baking_plan_calc("cookie", 1)
 # p baking_plan_calc("cookie", 10)
 # p baking_plan_calc("THIS IS AN ERROR", 5)
 # p baking_plan_calc("ice cream", 5)
-p baking_plan_calc("pie", 13)
+# p baking_plan_calc("pie", 13)
 
 #  Reflection
+# What did you learn about making code readable by working on this challenge?
+# => I learned that when creating hash variables, it is a good option to include the key and value description in the overall hash variable name.
+# => I also learned that when writing if statements, it's good practice to write them trailing their action in cases where it is a one line action.
+
+# Did you learn any new methods? What did you learn about them?
+# => I learned that include, key, and has_key are all synonyms of eachother.  I also learned that there is a new preference for using fail instead of raise for errors.
+# => The values_at method was new to me, and I learned that it returns an array of values, not just a single value itself
+
+# What did you learn about accessing data in hashes? 
+# => Accessing values using values_at was a new approach for me to review.  Other than that most of the hash work was concepts that was familiar to me.
+# => It was also interesting to see how different methods return different types of data from a hash.  Some return the data in arrays, some return items invidually.
+
+# What concepts were solidified when working through this challenge?
+# => Some best practices on formatting code and variable names were solidified for me on this challenge.
