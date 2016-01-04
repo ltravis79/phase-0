@@ -1,7 +1,7 @@
 // Separate Numbers with Commas in JavaScript **Pairing Challenge**
 
 
-// I worked on this challenge with: .
+// I worked on this challenge with: Joseph Scott.
 
 // Pseudocode
 // variable separateComma is a function that takes input {
